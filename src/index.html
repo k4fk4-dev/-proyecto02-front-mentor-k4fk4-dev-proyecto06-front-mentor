@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+  <link rel="stylesheet" href="output.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="bg-Verydarkbluemain md:mx-auto md:pt-36">
+  <section class="w-[328px] h-[540px] mx-auto p-5 mt-10 bg-Verydarkbluecard rounded-xl">
+    
+     <div>
+      <div class="relative group w-[280px] h-[280px] mx-auto">
+        <img class="w-full h-full transition duration-300 group-hover:blur-sm rounded-lg" src="../images/image-equilibrium.jpg" alt="">
+        <div class="absolute inset-0 w-[280px] h-[280px] group-hover:bg-Cyan group-hover:opacity-60 transition duration-300 rounded-lg">
+        </div>
+        <div class="absolute inset-0 items-center cursor-pointer justify-center rounded-lg">
+          <img class="mx-auto py-28 invisible group-hover:visible" src="../images/icon-view.svg" alt="">
+        </div>
+      </div>
+     </div>
+
+    <div class="">
+      <h2 class="text-white font-bold py-5 text-xl hover:text-Cyan cursor-pointer">Equilibrium #3429</h2>
+      <p class="text-Verydarkblueline pb-2">Our Equilibrium collection promotes balance and calm.</p>
+      <div class="flex place-content-between items-center pt-2 pb-4">
+        <p class="flex gap-2">
+          <img src="../images/icon-ethereum.svg" class="w-3" alt="">
+          <span class="text-Cyan font-bold">0.041 ETH</span>
+        </p>
+        <p class="flex gap-2">
+          <img src="../images/icon-clock.svg" class="w-6" alt="">
+          <span class="text-Verydarkblueline">3 days left</span>
+        </p>
+      </div>
+      <hr class=" h-[1px] w-48 mx-auto bg-Verydarkblueline border-0 dark:bg-Verydarkbluelines">
+      <div class="flex gap-2 pt-3">
+        <img src="../images/image-avatar.png" class="w-8 h-8 border-2 border-white rounded-full" alt="">
+        <p class="text-Verydarkblueline">Creation of <span class="text-white hover:text-Cyan cursor-pointer">Jules Wyvern</span></p>
+      </div>
+
+    </div>
+    
+  </section>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/k4fk4-dev/proyecto06-front-mentor.git">k4fk4</a>.
+  </div>
+</body>
+</html>
